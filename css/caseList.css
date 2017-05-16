@@ -1,0 +1,232 @@
+.case_banner {
+	width: 560px;
+	margin: 80px auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+.case_banner_title {
+	font-size: 32px;
+}
+
+.case_banner_text {
+	font-size: 16px;
+	color: RGB(153, 153, 153);
+	margin-bottom: 25px;
+}
+
+.case_banner_btn ul li {
+	float: left;
+	width: 140px;
+	height: 30px;
+}
+
+.case_banner_btn ul li a {
+	display: block;
+	font-size: 14px;
+	line-height: 28px;
+	border-radius: 30px;
+	margin-right: 20px;
+}
+
+.case_banner_btn ul li a.banner_btn_pur {
+	color: RGB(170, 76, 186);
+	border: 1px solid RGB(170, 76, 186);
+	transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	/* Firefox 4 */
+	-webkit-transition: background 0.2s;
+	/* Safari 和 Chrome */
+	-o-transition: background 0.2s;
+	/* Opera */
+}
+
+.case_banner_btn ul li a.banner_btn_pur:hover {
+	color: #fff;
+	background: RGB(170, 76, 186);
+}
+
+.case_banner_btn ul li a.banner_btn_pur.active {
+	color: #fff;
+	background: RGB(170, 76, 186);
+}
+
+.ycyth_color {
+	color: RGB(170, 76, 186);
+}
+
+.case_banner_btn ul li a.banner_btn_bl {
+	color: RGB(30, 170, 241);
+	transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	/* Firefox 4 */
+	-webkit-transition: background 0.2s;
+	/* Safari 和 Chrome */
+	-o-transition: background 0.2s;
+	/* Opera */
+	border: 1px solid RGB(30, 170, 241);
+}
+
+.case_banner_btn ul li a.banner_btn_bl:hover {
+	color: #fff;
+	background: RGB(30, 170, 241);
+}
+
+.case_banner_btn ul li a.banner_btn_bl.active {
+	color: #fff;
+	background: RGB(30, 170, 241);
+}
+
+.jtgkygx_color {
+	color: RGB(30, 170, 241);
+}
+
+.case_banner_btn ul li a.banner_btn_lbl {
+	color: RGB(38, 189, 141);
+	transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	/* Firefox 4 */
+	-webkit-transition: background 0.2s;
+	/* Safari 和 Chrome */
+	-o-transition: background 0.2s;
+	/* Opera */
+	border: 1px solid RGB(38, 189, 141);
+}
+
+.case_banner_btn ul li a.banner_btn_lbl:hover {
+	color: #fff;
+	background: RGB(38, 189, 141);
+}
+
+.case_banner_btn ul li a.banner_btn_lbl.active {
+	color: #fff;
+	background: RGB(38, 189, 141);
+}
+
+.xmgl_color {
+	color: RGB(38, 189, 141);
+}
+
+.case_banner_btn ul li a.banner_btn_r {
+	color: RGB(250, 105, 90);
+	transition: background 0.2s;
+	-moz-transition: background 0.2s;
+	/* Firefox 4 */
+	-webkit-transition: background 0.2s;
+	/* Safari 和 Chrome */
+	-o-transition: background 0.2s;
+	/* Opera */
+	border: 1px solid RGB(250, 105, 90);
+}
+
+.case_banner_btn ul li a.banner_btn_r:hover {
+	color: #fff;
+	background: RGB(250, 105, 90);
+}
+
+.case_banner_btn ul li a.banner_btn_r.active {
+	color: #fff;
+	background: RGB(250, 105, 90);
+}
+
+.ygz_color {
+	color: RGB(250, 105, 90);
+}
+
+.case_list {
+	width: 80%;
+	margin: 0 auto 20px;
+	overflow: hidden;
+}
+
+.case_list .case_item {
+	width: 33%;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.case_list .case_item .case_item_con:hover {
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.08);
+}
+
+.case_list .case_item .case_item_con {
+	margin-right: 20px;
+	/* padding: 10px; */
+	border: 1px solid rgb(248, 248, 248);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	-webkit-transition: opacity 200ms ease-out;
+	transition: opacity 200ms ease-out;
+	/*-moz-box-shadow: -3px 4px 12px rgb(248, 248, 248);
+	-webkit-box-shadow: -3px 4px 12px rgb(248, 248, 248);
+	box-shadow: -3px 4px 12px rgb(248, 248, 248);*/
+}
+
+.case_item_img,
+.case_item_title,
+.case_item_text {
+	margin-bottom: 10px;
+}
+
+.case_item_text {
+	color: RGB(153, 153, 153);
+}
+
+.case_item_title {
+	font-size: 16px;
+	color: RGB(51, 51, 51);
+	font-weight: bold;
+}
+
+.case_item_type_date {
+	overflow: hidden;
+}
+
+.case_item_type_date span.type {
+	float: left;
+}
+
+.case_item_type_date span.date {
+	float: right;
+	color: RGB(153, 153, 153);
+}
+
+.case_item_img img {
+	width: 100%;
+}
+
+.more_case_btn {
+	border: 1px solid RGB(250, 105, 90);
+	border-radius: 4px;
+	color: RGB(250, 105, 90);
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	margin: 50px auto 50px;
+}
+
+@media (max-width: 1080px) {
+	.case_list .case_item {
+		width: 50%;
+	}
+}
+
+@media (max-width: 767px) {
+	.case_banner {
+		width: 80%;
+	}
+	.case_banner_btn ul li {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.case_list .case_item {
+		width: 100%;
+	}
+}

@@ -1,0 +1,127 @@
+.solution_banner {
+	width: 100%;
+	height: 350px;
+	background: url(../images/solution/solution_banner_bg.png) no-repeat;
+	background-size: 100% 100%;
+	//margin-top: 50px;
+	padding-top: 100px;
+}
+
+.solution_banner_content {
+	width: 600px;
+	height: 300px;
+	margin: 60px auto;
+}
+
+.banner_title_logo {
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.solution_banner_logo {
+	width: 50%;
+	float: left;
+}
+
+.halving_line {
+	width: 1px;
+	height: 50px;
+	background: RGB(89, 89, 89);
+	float: right;
+	margin-left: 20px;
+}
+
+.solution_banner_title {
+	width: 50%;
+	float: left;
+}
+
+.solution_banner_title div {
+	margin-left: 20px;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+.banner_subtitle {
+	text-align: center;
+	font-size: 24px;
+	color: RGB(51, 51, 51);
+}
+
+.content_item {
+	width: 80%;
+	margin: 0 auto 50px;
+}
+
+.content_title {
+	color: RGB(250, 105, 90);
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.content_text {
+	color: RGB(115, 121, 128);
+	line-height: 2em;
+}
+.content_item img {
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+.general_situation {
+	background: RGB(245, 245, 245);
+	padding: 50px 100px 50px 100px;
+	margin-bottom: 50px;
+}
+
+.general_situation_title {
+	font-size: 24px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.general_situation p {
+	line-height: 2em;
+}
+
+@media (max-width: 767px) {
+	.solution_banner {
+		background: url(../images/solution/bg-mobile.png) no-repeat;
+		background-size: 100% 100%;
+		height: 200px;
+	}
+	.banner_title_logo {
+		margin-bottom: 25px;
+	}
+	.solution_banner_content {
+		width: 100%;
+		margin: 0px auto;
+	}
+	.solution_banner_title div {
+		font-size: 20px;
+	}
+	.halving_line {
+		height: 30px;
+		margin-left: 10px;
+	}
+	.logo_333,
+	.logo_333 .logo_text_333 {
+		width: 90px;
+		height: 40px;
+		background-size: contain;
+	}
+	.logo_333 .logo_text_333 {
+		top: 20px;
+	}
+	.solution_banner_logo {
+		margin-top: 10px;
+	}
+	.solution_banner_title div {
+		margin-left: 10px;
+	}
+	.general_situation {
+		padding: 50px 50px 50px;
+	}
+}

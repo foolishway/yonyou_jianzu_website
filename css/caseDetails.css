@@ -1,0 +1,241 @@
+.case_banner {
+	width: 80%;
+	height: 350px;
+	background: url(../images/case/banner_bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin: 100px auto 50px;
+	padding-top: 150px;
+}
+
+.case_banner_container {
+	width: 100%;
+	height: 200px;
+	background: rgba(0, 0, 0, 0.6);
+	color: #FFFFFF;
+}
+
+.case_banner_text {
+	padding-left: 50px;
+	padding-top: 50px;
+}
+
+.case_banner_text .banner_title {
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-family: PingFangSC-Regular;
+}
+
+.case_banner_text .banner_subtitle {
+	font-size: 24px;
+	line-height: 24px;
+	font-family: PingFangSC-Thin;
+}
+
+.content_item {
+	width: 80%;
+	margin: 0 auto 50px;
+}
+
+.content_title {
+	color: RGB(250, 105, 90);
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+.content_text {
+	color: RGB(115, 121, 128);
+	line-height: 2em;
+}
+
+.content_text p {
+	margin-bottom: 20px;
+	text-indent: 2em;
+}
+.content_text ul,.gray_bg_content ul{
+	list-style-type:disc ;
+}
+
+.gray_bg {
+	background: RGB(245, 245, 245);
+	padding: 50px;
+	padding-bottom: 60px;
+}
+
+.content_title_center {
+	text-align: center;
+	font-size: 24px;
+	line-height: 24px;
+	margin-bottom: 50px;
+}
+
+.gray_bg_content {
+	color: RGB(115, 121, 128);
+	padding: 50px;
+	line-height: 2em;
+	background: RGB(255, 255, 255);
+	width: 80%;
+	margin: 0 auto;
+}
+/*//中国建筑第五工程局有限公司*/
+.case_banner.zjwj{
+	background: url(../images/case/zjwj.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//云南省建设投资控股集团有限公司*/
+.case_banner.ynsjstzkg{
+	background: url(../images/case/gic19729116.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中国二十冶集团有限公司*/
+.case_banner.zgsey{
+	background: url(../images/case/5683bdc80a51d.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//河南省第二建设集团有限公司*/
+.case_banner.hnsdejs{
+	background: url(../images/case/8a431c717.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//浙江宝盛建设集团有限公司*/
+.case_banner.zjgsjs{
+	background: url(../images/case/a4df561f2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//江西省交通工程集团公司*/
+.case_banner.jxsjt{
+	background: url(../images/case/jxsjt.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//天津管道集团*/
+.case_banner.tjgd{
+	background: url(../images/case/ubes.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//青岛建安建设集团有限公司*/
+.case_banner.qdja{
+	background: url(../images/case/BU004515.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中国核工业第五建设有限公司*/
+.case_banner.zghg{
+	background: url(../images/case/581337794a43b.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中冶天工集团有限公司*/
+.case_banner.zytg{
+	background: url(../images/case/zytgjt.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中国建筑标准设计研究院*/
+.case_banner.zgjzbz{
+	background: url(../images/case/zgjzbz.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中国建筑股份有限公司*/
+.case_banner.zgjzgf{
+	background: url(../images/case/97765505.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//山河建设集团*/
+.case_banner.shjs{
+	background: url(../images/case/5bd2671d9.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中交第一航务工程局有限公司*/
+.case_banner.zjdy{
+	background: url(../images/case/5348c6d1d5903.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中交总承包集团*/
+.case_banner.zjzcbjt{
+	background: url(../images/case/523a99ab17c23.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中冶集团武汉勘察研究院有限公司*/
+.case_banner.zzjt{
+	background: url(../images/case/zyjtwh.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//准信智慧消防股份有限公司*/
+.case_banner.zxzh{
+	background: url(../images/case/zxzh.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中国电建集团海外投资有限公司*/
+.case_banner.zgdj{
+	background: url(../images/case/2049237_1292909684.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//中国水利水电第十三工程局有限公司*/
+.case_banner.zgsl{
+	background: url(../images/case/zgslsd.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//江苏南通三建集团公司*/
+.case_banner.jsnt{
+	background: url(../images/case/5bd2671d9.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//浙江环宇建设集团有限公司*/
+.case_banner.zjhy{
+	background: url(../images/case/97765505.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//浙江中成建工集团有限公司*/
+.case_banner.zjzc{
+	background: url(../images/case/zjzcjg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//安徽宝业建工集团有限公司*/
+.case_banner.ahby{
+	background: url(../images/case/8c75c3868.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+/*//天津市静海公路工程有限公司*/
+.case_banner.tjs{
+	background: url(../images/case/tjsjh.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+@media (max-width: 767px) {
+	.case_banner {
+		width: 100%;
+		margin: 0px 0px 30px;
+		padding-top: 150px;
+	}
+	.content_item {
+		width: 90%;
+		margin: 0 auto 30px;
+	}
+	.gray_bg {
+		padding: 0px;
+	}
+	.content_title_center {
+		padding-top: 20px;
+		margin-bottom: 20px;
+	}
+	.gray_bg_content {
+		color: RGB(115, 121, 128);
+		padding: 10px;
+		line-height: 2em;
+		background: RGB(255, 255, 255);
+		width: 90%;
+		margin: 0 auto;
+	}
+	.case_banner_container {
+		height: 150px;
+	}
+	.case_banner_text .banner_title {
+		font-size: 16px;
+		line-height: 16px;
+	}
+	.case_banner_text {
+		padding-left: 0px;
+		text-align: center;
+	}
+	.case_banner_text .banner_subtitle {
+		font-size: 14px;
+		line-height: 14px;
+	}
+}

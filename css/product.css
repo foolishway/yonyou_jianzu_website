@@ -1,0 +1,86 @@
+.bg_fff {
+	background: #FFFFFF;
+}
+
+.bg_333 {
+	background: rgb(245, 245, 245);
+}
+
+.product_main {
+	width: 100%;
+	padding-top: 50px;
+}
+
+.product_main_item {
+	height: auto;
+	overflow: hidden;
+	padding-top: 50px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.product_main_item_title{
+	margin-bottom: 50px;
+}
+
+.product_main_item_title h1 {
+	font-size: 30px;
+}
+
+.product_main_item_title h1 i.iconfont {
+	margin-right: 10px;
+	font-size: 26px
+}
+
+.product_main_item_title h2 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.product_main_item_des {
+	width: 70%;
+	margin: 0 auto 50px;
+	font-size: 16px;
+	margin-bottom: 40px !important;
+}
+
+.product_main_item_img {
+	margin-bottom: 50px;
+}
+
+.product_main_item_img img {
+	width: 96%;
+	border-radius: 6px;
+	box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.2);
+}
+
+.apply_p {
+	height: 400px;
+}
+
+.apply_now {
+	margin: -100px -200px;
+	height: 200px;
+	width: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.apply_now .des {
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.apply_now .apply_btn {
+	width: 130px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1079px) {
+	.product_main_item {
+		width: 90%;
+	}
+}

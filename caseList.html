@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>案例</title>
+		<link href="css/iconfont/iconfont.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/caseList.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
+		<script type="text/javascript" src="js/caseList.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="header header_white">
+				<div class="header_log">
+					<div class="header_log_text header_log_text_333"></div>
+				</div>
+				<nav class="header_menu">
+					<ul class="header_p_menu_list">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li data-flag="parent">
+							<a>产品</a>
+							<ul class="header_c_menu_list hide header_c_menu_list_scroll">
+								<li>
+									<a href="zhishui.html">智税</a>
+								</li>
+								<li>
+									<a href="zhiliang.html">智量</a>
+								</li>
+								<li>
+									<a href="zhicai.html">智采</a>
+								</li>
+								<li>
+									<a href="zhijian.html">智检</a>
+								</li>
+							</ul>
+						</li>
+						<li data-flag="parent">
+							<a>解决方案</a>
+							<ul class="header_c_menu_list hide header_c_menu_list_scroll">
+								<li>
+									<a href="yinggaizeng.html">营改增</a>
+								</li>
+								<li>
+									<a href="fangjian.html">房建</a>
+								</li>
+								<li>
+									<a href="zhuangshi.html">装饰</a>
+								</li>
+								<li>
+									<a href="luqiao.html">路桥</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="newsCenter.html">新闻中心</a>
+						</li>
+						<li>
+							<a href="aboutUs.html">关于我们</a>
+						</li>
+					</ul>
+				</nav>
+				<span class="app_menu_btn iconfont hide">&#xe628;</span>
+				<!--移动端导航开始-->
+				<nav class="app_menu hide">
+					<ul class="app_p_menu_list">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li data-flag="parent">
+							<a>产品</a>
+							<ul class="app_c_menu_list hide">
+								<li>
+									<a href="zhishui.html">智税</a>
+								</li>
+								<li>
+									<a href="zhiliang.html">智量</a>
+								</li>
+								<li>
+									<a href="zhicai.html">智采</a>
+								</li>
+								<li>
+									<a href="zhijian.html">智检</a>
+								</li>
+							</ul>
+						</li>
+						<li data-flag="parent">
+							<a>解决方案</a>
+							<ul class="header_c_menu_list header_c_menu_list_normal hide">
+								<li>
+									<a href="yinggaizeng.html">营改增</a>
+								</li>
+								<li>
+									<a href="fangjian.html">房建</a>
+								</li>
+								<li>
+									<a href="zhuangshi.html">装饰</a>
+								</li>
+								<li>
+									<a href="luqiao.html">路桥</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="newsCenter.html">新闻中心</a>
+						</li>
+						<li>
+							<a href="aboutUs.html">关于我们</a>
+						</li>
+					</ul>
+				</nav>
+				<!--移动端导航结束-->
+			</div>
+			<div class="case_banner ">
+				<div class="case_banner_title mb20">
+					<h1>案例</h1></div>
+				<div class="case_banner_text">我始终抱持着一个态度：没有问题客户，只有客户的重大问题。 陷溺问题的挣扎，永远比寻求解决之道浪费时间且消耗精力</div>
+				<div class="case_banner_btn">
+					<ul>
+						<li>
+							<a href="#" class="banner_btn_pur" data-flag="ycyth">业财一体化</a>
+						</li>
+						<li>
+							<a href="#" class="banner_btn_bl" data-flag="jtgkygx">集团管控与共享</a>
+						</li>
+						<li>
+							<a href="#" class="banner_btn_lbl" data-flag="xmgl">项目管理</a>
+						</li>
+						<li>
+							<a href="#" class="banner_btn_r" data-flag="ygz">营改增</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="case_list ycyth">
+				<div class="case_item">
+					<a href="anli/zjwj.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/zjwj_logo.jpg" /></div>
+							<div class="case_item_title">中国建筑第五工程局有限公司</div>
+							<div class="case_item_text">业财一体化、保特、央企</div>
+							<div class="case_item_type_date">
+								<span class="type ycyth_color">业财一体化</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/ynsjstz.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/yns_logo.jpg" /></div>
+							<div class="case_item_title">云南省建设投资控股集团有限公司</div>
+							<div class="case_item_text">精细化项目核算、保特、大型国企</div>
+							<div class="case_item_type_date">
+								<span class="type ycyth_color">业财一体化</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zgsey.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/zgesyjt_logo.jpg" /></div>
+							<div class="case_item_title">中国二十冶集团有限公司</div>
+							<div class="case_item_text">业财一体化、保特增项升特、央企</div>
+							<div class="case_item_type_date">
+								<span class="type ycyth_color">业财一体化</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/hnsdejs.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/hnsdejs_logo.jpg" /></div>
+							<div class="case_item_title">河南省第二建设集团有限公司</div>
+							<div class="case_item_text">一体化标杆、一升特、项目管理</div>
+							<div class="case_item_type_date">
+								<span class="type ycyth_color">业财一体化</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zjbsjs.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/9.jpg" /></div>
+							<div class="case_item_title">浙江宝盛建设集团有限公司</div>
+							<div class="case_item_text">业财一体化、精细管控</div>
+							<div class="case_item_type_date">
+								<span class="type ycyth_color">业财一体化</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/jxsjt.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/31.jpg" /></div>
+							<div class="case_item_title">江西省交通工程集团公司</div>
+							<div class="case_item_text">业财一体化、路桥、 一升特</div>
+							<div class="case_item_type_date">
+								<span class="type ycyth_color">业财一体化</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<!--<div class="case_item">
+					<a href="anli/tjgdjt.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/35.jpg" /></div>
+							<div class="case_item_title">天津管道集团</div>
+							<div class="case_item_text">业财一体化、管道安装</div>
+							<div class="case_item_type_date">
+								<span class="type ycyth_color">业财一体化</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>-->
+				<div class="case_item">
+					<a href="anli/qdjajs.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/8.jpg" /></div>
+							<div class="case_item_title">青岛建安建设集团有限公司</div>
+							<div class="case_item_text">轻量一体化</div>
+							<div class="case_item_type_date">
+								<span class="type ycyth_color">业财一体化</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="case_list xmgl hide">
+				<div class="case_item">
+					<a href="anli/zjdyhwgcj.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/18.jpg" /></div>
+							<div class="case_item_title">中交第一航务工程局有限公司</div>
+							<div class="case_item_text">逐步实施、 脚踏实地</div>
+							<div class="case_item_type_date">
+								<span class="type xmgl_color">项目管理</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zjzcbjt.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/20.jpg" /></div>
+							<div class="case_item_title">中交总承包集团</div>
+							<div class="case_item_text">总包方管项目</div>
+							<div class="case_item_type_date">
+								<span class="type xmgl_color">项目管理</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zyjtwhkc.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/29.jpg" /></div>
+							<div class="case_item_title">中冶集团武汉勘察研究院有限公司</div>
+							<div class="case_item_text">勘察设计、一体化</div>
+							<div class="case_item_type_date">
+								<span class="type xmgl_color">项目管理</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zxzhxf.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/32.jpg" /></div>
+							<div class="case_item_title">准信智慧消防股份有限公司</div>
+							<div class="case_item_text">消防施工、一体化</div>
+							<div class="case_item_type_date">
+								<span class="type xmgl_color">项目管理</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zgdjjt.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/13.jpg" /></div>
+							<div class="case_item_title">中国电建集团海外投资有限公司</div>
+							<div class="case_item_text">投资项目管控</div>
+							<div class="case_item_type_date">
+								<span class="type xmgl_color">项目管理</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+			</div>
+			<div class="case_list jtgkygx hide">
+				<div class="case_item">
+					<a href="anli/zhhgywj.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/10.jpg" /></div>
+							<div class="case_item_title">中国核工业第五建设有限公司</div>
+							<div class="case_item_text">共享服务</div>
+							<div class="case_item_type_date">
+								<span class="type jtgkygx_color">集团管控与共享</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zytg.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/22.jpg" /></div>
+							<div class="case_item_title">中冶天工集团有限公司</div>
+							<div class="case_item_text">资金管理</div>
+							<div class="case_item_type_date">
+								<span class="type jtgkygx_color">集团管控与共享</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zjbzyjy.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/23.jpg" /></div>
+							<div class="case_item_title">中国建筑标准设计研究</div>
+							<div class="case_item_text">全面预算</div>
+							<div class="case_item_type_date">
+								<span class="type jtgkygx_color">集团管控与共享</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zjgf.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/12.jpg" /></div>
+							<div class="case_item_title">中国建筑股份有限公司</div>
+							<div class="case_item_text">人力资源</div>
+							<div class="case_item_type_date">
+								<span class="type jtgkygx_color">集团管控与共享</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/shjs.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/27.jpg" /></div>
+							<div class="case_item_title">山河建设集团</div>
+							<div class="case_item_text">投资项目管控</div>
+							<div class="case_item_type_date">
+								<span class="type jtgkygx_color">集团管控与共享</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+
+			</div>
+			<div class="case_list ygz hide">
+				<div class="case_item">
+					<a href="anli/zgslsdssj.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/30.jpg" /></div>
+							<div class="case_item_title">中国水利水电第十三工程局有限公司</div>
+							<div class="case_item_text">集中税控、央企</div>
+							<div class="case_item_type_date">
+								<span class="type ygz_color">税务管控（营改增）</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/ntsj.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/27.jpg" /></div>
+							<div class="case_item_title">江苏南通三建工程有限公司</div>
+							<div class="case_item_text">集成、大型民企</div>
+							<div class="case_item_type_date">
+								<span class="type ygz_color">税务管控（营改增）</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zjhy.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/12.jpg" /></div>
+							<div class="case_item_title">浙江环宇建设集团有限公司</div>
+							<div class="case_item_text">财税一体化、大型民企</div>
+							<div class="case_item_type_date">
+								<span class="type ygz_color">税务管控（营改增）</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/zjzc.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/33.jpg" /></div>
+							<div class="case_item_title">浙江中成建工集团有限公司</div>
+							<div class="case_item_text">财税一体化、大型民企</div>
+							<div class="case_item_type_date">
+								<span class="type ygz_color">税务管控（营改增）</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/ahby.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/25.jpg" /></div>
+							<div class="case_item_title">安徽宝业建工集团有限公司 </div>
+							<div class="case_item_text">财税一体化、大型民企</div>
+							<div class="case_item_type_date">
+								<span class="type ygz_color">税务管控（营改增）</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="case_item">
+					<a href="anli/tjjh.html">
+						<div class="case_item_con">
+							<div class="case_item_img">
+								<img src="images/case/34.jpg" /></div>
+							<div class="case_item_title">天津市静海公路工程有限公司 </div>
+							<div class="case_item_text">财税一体化、大型民企</div>
+							<div class="case_item_type_date">
+								<span class="type ygz_color">税务管控（营改增）</span>
+								<span class="date ">20/12/2016</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="more_cases">
+				<a href="#" class="more_case_btn">
+					更多案例
+				</a>
+			</div>
+			<footer class="footer ">
+				<div class="footer_body ">
+					<ul>
+						<li>
+							<a>产品</a>
+						</li>
+						<li>
+							<a href="zhishui.html">智税</a>
+						</li>
+						<li>
+							<a href="zhiliang.html">智量</a>
+						</li>
+						<li>
+							<a href="zhicai.html">智采</a>
+						</li>
+						<li>
+							<a href="zhijian.html">智检</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a>公司</a>
+						</li>
+						<li>
+							<a href="newsCenter.html">新闻中心</a>
+						</li>
+						<li>
+							<a href="aboutUs.html">关于我们</a>
+						</li>
+					</ul>
+					<ul class="mt_20">
+						<li>
+							<a>解决方案</a>
+						</li>
+						<li>
+							<a href="yinggaizeng.html">营改增</a>
+						</li>
+						<li>
+							<a href="fangjian.html">房建</a>
+						</li>
+						<li>
+							<a href="zhuangshi.html">装饰</a>
+						</li>
+						<li>
+							<a href="luqiao.html">路桥</a>
+						</li>
+					</ul>
+					<ul class="mt_20 ">
+						<li>
+							<a>相关站点</a>
+						</li>
+						<li>
+							<a>建筑云 Cloud</a>
+						</li>
+						<li>
+							<a>icop design</a>
+						</li>
+					</ul>
+					<ul class="app100 mt_20 ">
+						<li>
+							<a>联系方式</a>
+						</li>
+						<li>
+							<a><i class="iconfont ">&#xe608;</i>+86 13920155620</a>
+						</li>
+						<li>
+							<a><i class="iconfont ">&#xe606;</i>E_mail</a>
+						</li>
+						<li>
+							<a><i class="iconfont ">&#xe607;</i>微信</a>
+						</li>
+						<li>
+							<a><i class="iconfont ">&#xe605;</i>QQ</a>
+						</li>
+					</ul>
+					<div class="copyright ">
+						Copyright@2016 用友建筑云服务股份有限公司
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+
+</html>
